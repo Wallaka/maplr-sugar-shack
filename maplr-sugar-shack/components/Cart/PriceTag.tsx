@@ -44,7 +44,7 @@ export default function PriceTag({
 }: PriceTagProps) {
   return (
     <HStack spacing="1" {...rootProps}>
-      <Price textProps={priceProps}>{`${currency}${price * quantity}`}</Price>
+      <Price textProps={priceProps}>{`${currency}${(price * quantity).toFixed(2)}`}</Price>
     </HStack>
   );
 }

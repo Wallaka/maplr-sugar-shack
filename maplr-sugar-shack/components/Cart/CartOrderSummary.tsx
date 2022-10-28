@@ -38,7 +38,7 @@ export default function CartOrderSummary({
             Total
           </Text>
           <Text fontSize="xl" fontWeight="extrabold">
-            {`$${calculateSummary(cart)}`}
+            {`$${calculateSummary(cart).toFixed(2)}`}
           </Text>
         </Flex>
       </Stack>
