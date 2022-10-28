@@ -13,7 +13,7 @@ import {
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
 
-import CartService from "../Cart/CartService";
+import CartServiceLink from "../Cart/CartServiceLink";
 import CartContext from "../../contexts/cart";
 
 export default function MainNav() {
@@ -43,7 +43,7 @@ export default function MainNav() {
             </HStack>
           </HStack>
           <Flex alignItems={"center"}>
-            <CartService amount={cart.length} />
+            <CartServiceLink amount={cart.length} />
           </Flex>
         </Flex>
 

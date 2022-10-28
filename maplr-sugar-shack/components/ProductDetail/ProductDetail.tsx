@@ -8,9 +8,9 @@ import {
   Button,
   Icon,
 } from "@chakra-ui/react";
+import { FiShoppingCart } from "react-icons/fi";
 
 import CartContext from "../../contexts/cart";
-import { FiShoppingCart } from "react-icons/fi";
 import type { ProductDetail } from "../../services/products/types";
 
 type Props = {

@@ -15,10 +15,10 @@ import type { ProductDetail } from "../../services/products/types";
 import type { CartProductDetail } from "../../contexts/cart";
 
 type CartItemProps = {
-  product: CartProductDetail;
   handleChangeQuantity: (product: ProductDetail, quantity: number) => void;
   handleRemoveProduct: (id: string) => void;
   onChangeQuantity?: (quantity: number) => void;
+  product: CartProductDetail;
 };
 
 const QuantitySelect = (props: SelectProps) => {

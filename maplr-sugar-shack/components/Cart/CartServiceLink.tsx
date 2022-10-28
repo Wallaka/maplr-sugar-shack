@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { Icon } from "@chakra-ui/react";
-import { AiOutlineShoppingCart } from "react-icons/ai";
 
 type Props = {
   amount: number;

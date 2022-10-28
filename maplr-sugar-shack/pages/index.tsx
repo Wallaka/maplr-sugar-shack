@@ -2,7 +2,6 @@ import { Container } from "@chakra-ui/react";
 import { useQuery } from "@tanstack/react-query";
 
 import productApi from "../services/products/service";
-
 import ProductList from "../components/Product/ProductList";
 
 /**

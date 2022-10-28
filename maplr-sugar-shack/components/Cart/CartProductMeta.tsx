@@ -7,9 +7,9 @@ import {
 } from "@chakra-ui/react";
 
 export type CartProductMetaProps = {
-  name: string;
   description: string;
   image: string;
+  name: string;
 };
 
 export default function CartProductMeta({
